@@ -3,9 +3,11 @@
     "name": "my-quiz-app",
     "slug": "my-quiz-app",
     "version": "1.0.0",
+    "scheme": "myquizapp",
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -24,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "SUPABASE_URL": "https://bmjhxpumujrnlxdtltud.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJtamh4cHVtdWpybmx4ZHRsdHVkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3NzE1OTcsImV4cCI6MjA3NTM0NzU5N30.xZUKRT4pqVZEyjKxJUb_LCp5QVfPdnvYWrQ4HoxtMDA",
+      "TEACHER_PASSCODE": "Kshitij@2004"
     }
   }
 }
